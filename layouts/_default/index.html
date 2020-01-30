@@ -44,7 +44,7 @@
 							<i class="{{ . }}"></i>
 						</span>
 						{{ end }}
-						{{ .name }} <a href="https://www.google.com/search?tbm=fin&q={{ .ticker }}" target="_blank"
+						{{ .name }} <a href="https://www.google.com/search?tbm=fin&q={{ replace .ticker ":" ": " }}" target="_blank"
 							class="tag is-info is-light ">{{ .ticker }}</a>
 					</p>
 				</header>
