@@ -1,0 +1,12 @@
+languageCode = "en-US"
+title = "YouShouldHaveBoughtStocks.com"
+publishdir = "public"
+canonifyURLs = true
+#googleAnalytics = ""
+baseURL = "https://youshouldhaveboughtstocks.com"
+staticDir = ["static", "node_modules/@fortawesome/fontawesome-free/webfonts"]
+
+[params]
+    description = "YouShouldHaveBoughtStocks.com - why you should have bought stocks"
+    author = "Niek van der Maas"
+    favicon = "/favicon.png"

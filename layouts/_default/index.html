@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ .Site.Title }}</title>
+	{{ with .Site.Params.description }}
+	<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.author }}
+	<meta name="author" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.favicon }}
+	<link rel="icon" type="image/png" href="{{ . }}" />{{ end }}
+
+	{{ hugo.Generator }}
+
+	{{ $css := resources.Get "main.scss" | toCSS | postCSS | minify | fingerprint }}
+	<link rel="stylesheet" href="{{ $css.Permalink }}">
+
+	<!--{{ template "_internal/google_analytics_async.html" . }}-->
+</head>
+
+<body>
+	<nav class="navbar is-primary" aria-label="main navigation">
+		<div class="navbar-brand has-text-weight-bold is-size-4">
+			<a class="navbar-item " href="{{ .Site.BaseURL }}">
+				{{ .Site.Title }}
+			</a>
+		</div>
+	</nav>
+
+	<section class="section">
+		<div class="container">
+			<h1 class="title">
+				{{ .Title }}
+			</h1>
+			<h3 class="subtitle">What would have happened if you bought stocks at the time these companies IPOed?</h3>
+			{{ range sort .Params.companies "date" }}
+			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-size-5">
+						{{ with .icon }}
+						<span class="icon has-text-weight-normal">
+							<i class="{{ . }}"></i>
+						</span>
+						{{ end }}
+						{{ .name }} <a href="https://www.google.com/search?tbm=fin&q={{ .ticker }}" target="_blank"
+							class="tag is-info is-light ">{{ .ticker }}</a>
+					</p>
+				</header>
+				<div class="card-content">
+					<nav class="level">
+						<div class="level-item has-text-centered">
+							<div>
+								<p class="heading">IPO date</p>
+								<p class="title"><time datetime="{{ .date }}">{{ (time .date).Format "Jan 2, 2006" }}</time></p>
+							</div>
+						</div>
+						<div class="level-item has-text-centered">
+							<div>
+								<p class="heading">IPO price</p>
+								<p class="title">${{ lang.NumFmt 0 .price }}</p>
+							</div>
+						</div>
+						<div class="level-item has-text-centered">
+							<div>
+								<p class="heading">Current price</p>
+								<p class="title">${{ lang.NumFmt 0 .currentprice }}</p>
+								<p>(with {{ if eq .splits 1 }}no{{ else }}{{ .splits }}:1{{end}} stock splits)</p>
+							</div>
+						</div>
+						<div class="level-item has-text-centered">
+							<div>
+								<p class="heading">Gain</p>
+								<p class="title has-text-success">+{{ lang.NumFmt 0 (mul (div (sub (mul .currentprice .splits) .price) .price) 100) }}%</p>
+							</div>
+						</div>
+					</nav>
+				</div>
+				<footer class="card-footer-item">
+					<span class="subtitle">If you would have invested $1,000 in {{ .ticker }} at IPO date, you would have made
+						<strong>${{ lang.NumFmt 0 (mul (div (mul .currentprice .splits) .price) 1000) }}</strong> to date. That is averaged
+						<strong>{{ lang.NumFmt 0 (div (mul (div (sub (mul .currentprice .splits) .price) .price) 100) (div (now.Sub (time .date)).Hours 8760)) }}%</strong>
+						per
+						year.</span>
+				</footer>
+			</div>
+			{{ end }}
+			<h3 class="subtitle has-text-centered">Want to try trading stock? You can set up an account in minutes:</h3>
+			<p class="has-text-centered"><a href="http://partners.etoro.com/B10482_A84545_TClick_SYouShouldHaveBoughtStocks.aspx" target="_blank"
+					class="button is-large is-fullwidth is-success is-rounded">Start trading on eToro</a></p>
+
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="content has-text-centered">
+			<p>
+				<strong>&copy; {{ now.Year }} - {{ .Site.Title }}</strong> by <a target="_blank" href="https://www.niekvandermaas.nl/">Niek van der Maas</a>
+			</p>
+			<p>Updated at: {{ now.Format "02 January 2006, 15:04 UTC" }}. 
+				Source code available on:
+				<a class="button is-small" href="https://github.com/Niek/YouShouldHaveBoughtStocks" target="_blank">
+					<span class="icon is-small">
+						<i class="fab fa-github"></i>
+					</span>
+					<span>GitHub</span>
+				</a>
+			</p>
+		</div>
+	</footer>
+
+</body>
+
+</html>
