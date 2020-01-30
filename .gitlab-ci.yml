@@ -1,0 +1,16 @@
+image: registry.gitlab.com/pages/hugo/hugo_extended:latest
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+pages:
+  script:
+  - apk add yarn
+  - yarn install
+  - hugo --config config-alt.toml --minify
+  - find public -type f ! -name '*.gz' -exec gzip -k -6 "{}" \;
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

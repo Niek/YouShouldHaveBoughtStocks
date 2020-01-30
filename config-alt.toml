@@ -1,5 +1,5 @@
 languageCode = "en-US"
-title = "YouShouldHaveBoughtStocks.com"
+title = "StocksYouShouldHaveBought.com"
 publishdir = "public"
 canonifyURLs = true
 googleAnalytics = "UA-126743160-3"
@@ -7,7 +7,7 @@ baseURL = "https://youshouldhaveboughtstocks.com"
 staticDir = ["static", "node_modules/@fortawesome/fontawesome-free/webfonts"]
 
 [params]
-    subtitle = "You Should Have Bought Stocks"
-    description = "YouShouldHaveBoughtStocks.com - why you should have bought stocks at IPO"
+    subtitle = "Stocks You Should Have Bought"
+    description = "StocksYouShouldHaveBought.com - stocks you should have bought at IPO"
     author = "Niek van der Maas"
     favicon = "/favicon.png"

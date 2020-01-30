@@ -1,5 +1,4 @@
 ---
-title: You Should Have Bought Stocks
 companies:
   - name: Microsoft
     icon: fab fa-microsoft
