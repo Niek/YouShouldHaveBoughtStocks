@@ -1,0 +1,23 @@
+name: update prices
+
+on:
+  schedule:
+    - cron: 1 * * * * # Every hour
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Update prices + commit
+        run: |
+          ./update-data.sh
+          git config --local user.email "niek@github.com"
+          git config --local user.name "Niek"
+          git commit -m "Updated price data" -a
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PERSONAL_TOKEN }}
