@@ -15,7 +15,7 @@ jobs:
           ./update-data.sh
           git config --local user.email "niek@github.com"
           git config --local user.name "Niek"
-          git commit -m "Updated price data" -a
+          git diff-index --quiet HEAD || git commit -m "Updated price data" -a
 
       - name: Push changes
         uses: ad-m/github-push-action@master
