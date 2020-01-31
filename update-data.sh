@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 tickers=$(grep "ticker: " content/_index.md | cut -d: -f3)
 
