@@ -26,14 +26,14 @@ companies:
     ticker: NASDAQ:GOOGL
     date: 2004-08-19
     price: 85.0
-    currentprice: 
+    currentprice: 1524.87
     splits: 1.998
   - name: Facebook
     icon: fab fa-facebook-square
     ticker: NASDAQ:FB
     date: 2012-05-18
     price: 38.0
-    currentprice: 
+    currentprice: 217.49
     splits: 1
   - name: NVIDIA
     icon: fas fa-gamepad
