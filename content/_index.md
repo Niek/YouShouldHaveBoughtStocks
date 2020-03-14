@@ -5,7 +5,7 @@ companies:
     ticker: NASDAQ:MSFT
     date: 1986-03-13
     price: 21.0
-    currentprice: 0
+    currentprice: 158.83
     splits: 288
   - name: Amazon
     icon: fab fa-amazon
