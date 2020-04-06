@@ -5,14 +5,14 @@ companies:
     ticker: NASDAQ:MSFT
     date: 1986-03-13
     price: 21.0
-    currentprice: 159.82
+    currentprice: 160.19
     splits: 288
   - name: Amazon
     icon: fab fa-amazon
     ticker: NASDAQ:AMZN
     date: 1997-05-15
     price: 18.0
-    currentprice: 1935.675
+    currentprice: 1955.625
     splits: 12
   - name: Netflix
     icon: fas fa-film
@@ -26,34 +26,34 @@ companies:
     ticker: NASDAQ:GOOGL
     date: 2004-08-19
     price: 85.0
-    currentprice: 1128.16
+    currentprice: 1144.64
     splits: 1.998
   - name: Facebook
     icon: fab fa-facebook-square
     ticker: NASDAQ:FB
     date: 2012-05-18
     price: 38.0
-    currentprice: 159.79
+    currentprice: 159.605
     splits: 1
   - name: NVIDIA
     icon: fas fa-gamepad
     ticker: NASDAQ:NVDA
     date: 1999-01-22
     price: 12.0
-    currentprice: 257.94
+    currentprice: 259.755
     splits: 12
   - name: Alibaba
     icon: fas fa-shopping-cart
     ticker: NYSE:BABA
     date: 2014-09-18
     price: 68.0
-    currentprice: 193.9
+    currentprice: 193.555
     splits: 1
   - name: Tesla
     icon: fas fa-charging-station
     ticker: NASDAQ:TSLA
     date: 2010-06-29
     price: 17.0
-    currentprice: 503.62
+    currentprice: 511.7045
     splits: 1
 ---
