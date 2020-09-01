@@ -40,7 +40,7 @@ companies:
     ticker: NASDAQ:NVDA
     date: 1999-01-22
     price: 12.0
-    currentprice: 534.98
+    currentprice: 534.82
     splits: 12
   - name: Alibaba
     icon: fas fa-shopping-cart
