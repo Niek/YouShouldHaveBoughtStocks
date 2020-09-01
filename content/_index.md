@@ -12,14 +12,14 @@ companies:
     ticker: NASDAQ:AMZN
     date: 1997-05-15
     price: 18.0
-    currentprice: 3500.47
+    currentprice: 3499.12
     splits: 12
   - name: Netflix
     icon: fas fa-film
     ticker: NASDAQ:NFLX
     date: 2002-05-23
     price: 15.0
-    currentprice: 556.9
+    currentprice: 556.55
     splits: 14
   - name: Google / Alphabet
     icon: fab fa-google
@@ -47,7 +47,7 @@ companies:
     ticker: NYSE:BABA
     date: 2014-09-18
     price: 68.0
-    currentprice: 297.99
+    currentprice: 298
     splits: 1
   - name: Tesla
     icon: fas fa-charging-station
