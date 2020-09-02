@@ -1,6 +1,6 @@
 languageCode = "en-US"
 title = "StocksYouShouldHaveBought.com"
-publishdir = "public"
+publishdir = "public-alt"
 canonifyURLs = true
 googleAnalytics = "UA-126743160-4"
 baseURL = "https://youshouldhaveboughtstocks.com"

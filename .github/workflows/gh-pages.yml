@@ -24,7 +24,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify && hugo --minify --config config-alt.toml
 
       - name: Deploy to gh-pages of current repo
         uses: peaceiris/actions-gh-pages@v3
@@ -37,7 +37,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./public-alt
           cname: stocksyoushouldhavebought.com
           external_repository: Niek/StocksYouShouldHaveBought
           publish_branch: gh-pages
