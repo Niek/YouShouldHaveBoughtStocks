@@ -9,11 +9,11 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
         with:
           submodules: true
 
-      - uses: borales/actions-yarn@v2.0.0
+      - uses: borales/actions-yarn@v2
         with:
           cmd: install
 
@@ -26,9 +26,18 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v2
-        env:
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./public
+      - name: Deploy to gh-pages of current repo
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_dir: ./public
+          cname: youshouldhaveboughtstocks.com
+
+      - name: Deploy to gh-pages of second repo
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_dir: ./public
+          cname: stocksyoushouldhavebought.com
+          external_repository: Niek/StocksYouShouldHaveBought
+          publish_branch: gh-pages
