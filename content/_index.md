@@ -47,7 +47,7 @@ companies:
     ticker: NYSE:BABA
     date: 2014-09-18
     price: 68.0
-    currentprice: 282.45
+    currentprice: 282.5
     splits: 1 # https://www.stocksplithistory.com/?symbol=BABA
   - name: Tesla
     icon: fas fa-charging-station
