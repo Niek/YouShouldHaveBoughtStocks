@@ -5,7 +5,7 @@ companies:
     ticker: NASDAQ:MSFT
     date: 1986-03-13
     price: 21.0
-    currentprice: 214.16
+    currentprice: 214.25
     splits: 288 # https://www.stocksplithistory.com/?symbol=MSFT
   - name: Amazon
     icon: fab fa-amazon
@@ -47,7 +47,7 @@ companies:
     ticker: NYSE:BABA
     date: 2014-09-18
     price: 68.0
-    currentprice: 281.13
+    currentprice: 281.39
     splits: 1 # https://www.stocksplithistory.com/?symbol=BABA
   - name: Tesla
     icon: fas fa-charging-station
