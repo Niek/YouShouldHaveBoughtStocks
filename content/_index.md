@@ -12,7 +12,7 @@ companies:
     ticker: NASDAQ:AMZN
     date: 1997-05-15
     price: 18.0
-    currentprice: 3209.23
+    currentprice: 3207.04
     splits: 12 # https://www.stocksplithistory.com/?symbol=AMZN
   - name: Netflix
     icon: fas fa-film
