@@ -33,7 +33,7 @@ companies:
     ticker: NASDAQ:FB
     date: 2012-05-18
     price: 38.0
-    currentprice: 263.34
+    currentprice: 263.31
     splits: 1 # https://www.stocksplithistory.com/?symbol=FB
   - name: NVIDIA
     icon: fas fa-gamepad
