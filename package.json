@@ -2,6 +2,6 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
     "@fullhuman/postcss-purgecss": "^3.0.0",
-    "postcss-cli": "^7.1.0"
+    "postcss-cli": "^8.3.1"
   }
 }
