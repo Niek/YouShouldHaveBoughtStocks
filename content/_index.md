@@ -5,14 +5,14 @@ companies:
     ticker: NASDAQ:MSFT
     date: 1986-03-13
     price: 21.0
-    currentprice: 324.32
+    currentprice: 324.35
     splits: 288 # https://www.stocksplithistory.com/?symbol=MSFT
   - name: Amazon
     icon: fab fa-amazon
     ticker: NASDAQ:AMZN
     date: 1997-05-15
     price: 18.0
-    currentprice: 3444.5
+    currentprice: 3446.57
     splits: 12 # https://www.stocksplithistory.com/?symbol=AMZN
   - name: Netflix
     icon: fas fa-film
@@ -33,7 +33,7 @@ companies:
     ticker: NASDAQ:FB
     date: 2012-05-18
     price: 38.0
-    currentprice: 316.82
+    currentprice: 316.92
     splits: 1 # https://www.stocksplithistory.com/?symbol=FB
   - name: NVIDIA
     icon: fas fa-gamepad
@@ -54,6 +54,6 @@ companies:
     ticker: NASDAQ:TSLA
     date: 2010-06-29
     price: 17.0
-    currentprice: 1077.09
+    currentprice: 1077.04
     splits: 5 # https://www.stocksplithistory.com/?symbol=TSLA
 ---
