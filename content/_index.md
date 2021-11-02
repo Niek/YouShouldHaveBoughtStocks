@@ -19,7 +19,7 @@ companies:
     ticker: NASDAQ:NFLX
     date: 2002-05-23
     price: 15.0
-    currentprice: 677.59
+    currentprice: 677.72
     splits: 14 # https://www.stocksplithistory.com/?symbol=NFLX
   - name: Google / Alphabet
     icon: fab fa-google
@@ -54,6 +54,6 @@ companies:
     ticker: NASDAQ:TSLA
     date: 2010-06-29
     price: 17.0
-    currentprice: 1171.97
+    currentprice: 1172
     splits: 5 # https://www.stocksplithistory.com/?symbol=TSLA
 ---
