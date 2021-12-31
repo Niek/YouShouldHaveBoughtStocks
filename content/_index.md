@@ -5,55 +5,55 @@ companies:
     ticker: NASDAQ:MSFT
     date: 1986-03-13
     price: 21.0
-    currentprice: 336.236
+    currentprice: 336.56
     splits: 288 # https://www.stocksplithistory.com/?symbol=MSFT
   - name: Amazon
     icon: fab fa-amazon
     ticker: NASDAQ:AMZN
     date: 1997-05-15
     price: 18.0
-    currentprice: 3351.335
+    currentprice: 3355.965
     splits: 12 # https://www.stocksplithistory.com/?symbol=AMZN
   - name: Netflix
     icon: fas fa-film
     ticker: NASDAQ:NFLX
     date: 2002-05-23
     price: 15.0
-    currentprice: 607.855
+    currentprice: 608.395
     splits: 14 # https://www.stocksplithistory.com/?symbol=NFLX
   - name: Google / Alphabet
     icon: fab fa-google
     ticker: NASDAQ:GOOGL
     date: 2004-08-19
     price: 85.0
-    currentprice: 2907.7934
+    currentprice: 2912.07
     splits: 1.998 # https://www.stocksplithistory.com/?symbol=GOOGL
   - name: Facebook
     icon: fab fa-facebook-square
     ticker: NASDAQ:FB
     date: 2012-05-18
     price: 38.0
-    currentprice: 339.8945
+    currentprice: 340.83
     splits: 1 # https://www.stocksplithistory.com/?symbol=FB
   - name: NVIDIA
     icon: fas fa-gamepad
     ticker: NASDAQ:NVDA
     date: 1999-01-22
     price: 12.0
-    currentprice: 294.49
+    currentprice: 296.725
     splits: 12 # https://www.stocksplithistory.com/?symbol=NVDA
   - name: Alibaba
     icon: fas fa-shopping-cart
     ticker: NYSE:BABA
     date: 2014-09-18
     price: 68.0
-    currentprice: 118.76
+    currentprice: 119.265
     splits: 1 # https://www.stocksplithistory.com/?symbol=BABA
   - name: Tesla
     icon: fas fa-charging-station
     ticker: NASDAQ:TSLA
     date: 2010-06-29
     price: 17.0
-    currentprice: 1063.99
+    currentprice: 1071.725
     splits: 5 # https://www.stocksplithistory.com/?symbol=TSLA
 ---
