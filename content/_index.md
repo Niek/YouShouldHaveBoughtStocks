@@ -13,7 +13,7 @@ companies:
     date: 1997-05-15
     price: 18.0
     currentprice: 0
-    splits: 12 # https://www.stocksplithistory.com/?symbol=AMZN
+    splits: 240 # https://www.stocksplithistory.com/?symbol=AMZN
   - name: Netflix
     icon: fa-regular fa-film
     ticker: NASDAQ:NFLX
@@ -27,7 +27,7 @@ companies:
     date: 2004-08-19
     price: 85.0
     currentprice: 0
-    splits: 1.998 # https://www.stocksplithistory.com/?symbol=GOOGL
+    splits: 39.96 # https://www.stocksplithistory.com/?symbol=GOOGL
   - name: Facebook
     icon: fa-brands fa-facebook-square
     ticker: NASDAQ:FB
@@ -41,7 +41,7 @@ companies:
     date: 1999-01-22
     price: 12.0
     currentprice: 0
-    splits: 12 # https://www.stocksplithistory.com/?symbol=NVDA
+    splits: 48 # https://www.stocksplithistory.com/?symbol=NVDA
   - name: Alibaba
     icon: fa-regular fa-shopping-cart
     ticker: NYSE:BABA
@@ -55,5 +55,5 @@ companies:
     date: 2010-06-29
     price: 17.0
     currentprice: 0
-    splits: 5 # https://www.stocksplithistory.com/?symbol=TSLA
+    splits: 15 # https://www.stocksplithistory.com/?symbol=TSLA
 ---
