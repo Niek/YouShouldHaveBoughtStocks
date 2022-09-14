@@ -28,9 +28,9 @@ companies:
     price: 85.0
     currentprice: 0
     splits: 39.96 # https://www.stocksplithistory.com/?symbol=GOOGL
-  - name: Facebook
+  - name: Facebook / Meta
     icon: fa-brands fa-facebook-square
-    ticker: NASDAQ:FB
+    ticker: NASDAQ:META
     date: 2012-05-18
     price: 38.0
     currentprice: 0
