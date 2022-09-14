@@ -34,7 +34,7 @@ companies:
     date: 2012-05-18
     price: 38.0
     currentprice: 153.13
-    splits: 1 # https://www.stocksplithistory.com/?symbol=FB
+    splits: 1 # https://www.stocksplithistory.com/?symbol=META
   - name: NVIDIA
     icon: fa-regular fa-gamepad
     ticker: NASDAQ:NVDA
