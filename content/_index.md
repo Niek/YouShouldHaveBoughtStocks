@@ -12,7 +12,7 @@ companies:
     ticker: NASDAQ:AMZN
     date: 1997-05-15
     price: 18.0
-    currentprice: 125.49
+    currentprice: 125.4902
     splits: 240 # https://www.stocksplithistory.com/?symbol=AMZN
   - name: Netflix
     icon: fa-regular fa-film
@@ -33,7 +33,7 @@ companies:
     ticker: NASDAQ:META
     date: 2012-05-18
     price: 38.0
-    currentprice: 281
+    currentprice: 284.4315
     splits: 1 # https://www.stocksplithistory.com/?symbol=META
   - name: NVIDIA
     icon: fa-regular fa-gamepad
