@@ -12,7 +12,7 @@ companies:
     ticker: NASDAQ:AMZN
     date: 1997-05-15
     price: 18.0
-    currentprice: 125.98
+    currentprice: 124.2101
     splits: 240 # https://www.stocksplithistory.com/?symbol=AMZN
   - name: Netflix
     icon: fa-regular fa-film
@@ -54,6 +54,6 @@ companies:
     ticker: NASDAQ:TSLA
     date: 2010-06-29
     price: 17.0
-    currentprice: 240.5
+    currentprice: 242
     splits: 15 # https://www.stocksplithistory.com/?symbol=TSLA
 ---
