@@ -12,6 +12,6 @@ staticDir = ["static", "node_modules/@fortawesome/fontawesome-free/webfonts"]
     author = "Niek van der Maas"
     favicon = "/favicon.png"
 
- [author]
-     name = "Niek van der Maas"
-     email = "mail@niekvandermaas.nl"
+    [params.author]
+        name = "Niek van der Maas"
+        mail = "mail@niekvandermaas.nl"
