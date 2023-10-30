@@ -9,7 +9,6 @@ staticDir = ["static", "node_modules/@fortawesome/fontawesome-free/webfonts"]
 [params]
     subtitle = "Stocks You Should Have Bought"
     description = "StocksYouShouldHaveBought.com - stocks you should have bought at IPO"
-    author = "Niek van der Maas"
     favicon = "/favicon.png"
 
     [params.author]
