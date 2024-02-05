@@ -18,7 +18,7 @@ jobs:
         with:
           submodules: true
 
-      - uses: borales/actions-yarn@v4.2.0
+      - uses: borales/actions-yarn@v5.0.0
         with:
           cmd: install
 
