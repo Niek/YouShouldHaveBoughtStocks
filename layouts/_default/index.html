@@ -17,7 +17,7 @@
 	{{ $css := resources.Get "main.scss" | toCSS | postCSS | minify | fingerprint }}
 	<link rel="stylesheet" href="{{ $css.Permalink }}">
 
-	{{ template "_internal/google_analytics_async.html" . }}
+	{{ template "_internal/google_analytics.html" . }}
 </head>
 
 <body>
