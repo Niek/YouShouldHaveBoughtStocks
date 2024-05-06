@@ -12,7 +12,7 @@ companies:
     ticker: NASDAQ:AMZN
     date: 1997-05-15
     price: 18.0
-    currentprice: 186.21
+    currentprice: 186.235
     splits: 240 # https://www.stocksplithistory.com/?symbol=AMZN
   - name: Netflix
     icon: fa-regular fa-film
@@ -26,21 +26,21 @@ companies:
     ticker: NASDAQ:GOOGL
     date: 2004-08-19
     price: 85.0
-    currentprice: 167.24
+    currentprice: 167.21
     splits: 39.96 # https://www.stocksplithistory.com/?symbol=GOOGL
   - name: Facebook / Meta
     icon: fa-brands fa-facebook-square
     ticker: NASDAQ:META
     date: 2012-05-18
     price: 38.0
-    currentprice: 451.96
+    currentprice: 452.05
     splits: 1 # https://www.stocksplithistory.com/?symbol=META
   - name: NVIDIA
     icon: fa-regular fa-gamepad
     ticker: NASDAQ:NVDA
     date: 1999-01-22
     price: 12.0
-    currentprice: 887.89
+    currentprice: 887.83
     splits: 48 # https://www.stocksplithistory.com/?symbol=NVDA
   - name: Alibaba
     icon: fa-regular fa-shopping-cart
@@ -54,6 +54,6 @@ companies:
     ticker: NASDAQ:TSLA
     date: 2010-06-29
     price: 17.0
-    currentprice: 181.19
+    currentprice: 181.14
     splits: 15 # https://www.stocksplithistory.com/?symbol=TSLA
 ---
