@@ -54,6 +54,6 @@ companies:
     ticker: NASDAQ:TSLA
     date: 2010-06-29
     price: 17.0
-    currentprice: 178.1
+    currentprice: 178.08
     splits: 15 # https://www.stocksplithistory.com/?symbol=TSLA
 ---
