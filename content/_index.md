@@ -47,13 +47,13 @@ companies:
     ticker: NYSE:BABA
     date: 2014-09-18
     price: 68.0
-    currentprice: 78.82
+    currentprice: 78.85
     splits: 1 # https://www.stocksplithistory.com/?symbol=BABA
   - name: Tesla
     icon: fa-regular fa-charging-station
     ticker: NASDAQ:TSLA
     date: 2010-06-29
     price: 17.0
-    currentprice: 232.0821
+    currentprice: 232.07
     splits: 15 # https://www.stocksplithistory.com/?symbol=TSLA
 ---
