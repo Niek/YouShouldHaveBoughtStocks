@@ -60,28 +60,28 @@
 						<div class="level-item has-text-centered">
 							<div>
 								<p class="heading">IPO price</p>
-								<p class="title">${{ lang.NumFmt 0 .price }}</p>
+								<p class="title">${{ lang.FormatNumberCustom 0 .price }}</p>
 							</div>
 						</div>
 						<div class="level-item has-text-centered">
 							<div>
 								<p class="heading">Current price</p>
-								<p class="title">${{ lang.NumFmt 0 .currentprice }}</p>
+								<p class="title">${{ lang.FormatNumberCustom 0 .currentprice }}</p>
 								<p>(with {{ if eq .splits 1 }}no{{ else }}{{ .splits }}:1{{end}} stock splits)</p>
 							</div>
 						</div>
 						<div class="level-item has-text-centered">
 							<div>
 								<p class="heading">Gain</p>
-								<p class="title has-text-success">+{{ lang.NumFmt 0 (mul (div (sub (mul .currentprice .splits) .price) .price) 100) }}%</p>
+								<p class="title has-text-success">+{{ lang.FormatNumberCustom 0 (mul (div (sub (mul .currentprice .splits) .price) .price) 100) }}%</p>
 							</div>
 						</div>
 					</nav>
 				</div>
 				<footer class="card-footer-item">
 					<span class="subtitle">If you would have invested $1,000 in {{ .ticker }} at IPO date, you would have made
-						<strong>${{ lang.NumFmt 0 (mul (div (mul .currentprice .splits) .price) 1000) }}</strong> to date. That is on average
-						<strong>{{ lang.NumFmt 0 (div (mul (div (sub (mul .currentprice .splits) .price) .price) 100) (div (now.Sub (time .date)).Hours 8760)) }}%</strong>
+						<strong>${{ lang.FormatNumberCustom 0 (mul (div (mul .currentprice .splits) .price) 1000) }}</strong> to date. That is on average
+						<strong>{{ lang.FormatNumberCustom 0 (div (mul (div (sub (mul .currentprice .splits) .price) .price) 100) (div (now.Sub (time .date)).Hours 8760)) }}%</strong>
 						per
 						year.</span>
 				</footer>
