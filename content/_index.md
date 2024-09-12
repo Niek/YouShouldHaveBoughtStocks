@@ -5,7 +5,7 @@ companies:
     ticker: NASDAQ:MSFT
     date: 1986-03-13
     price: 21.0
-    currentprice: 423.04
+    currentprice: 423.33
     splits: 288 # https://www.stocksplithistory.com/?symbol=MSFT
   - name: Amazon
     icon: fa-brands fa-amazon
@@ -40,7 +40,7 @@ companies:
     ticker: NASDAQ:NVDA
     date: 1999-01-22
     price: 12.0
-    currentprice: 116.91
+    currentprice: 116.78
     splits: 48 # https://www.stocksplithistory.com/?symbol=NVDA
   - name: Alibaba
     icon: fa-regular fa-shopping-cart
@@ -54,6 +54,6 @@ companies:
     ticker: NASDAQ:TSLA
     date: 2010-06-29
     price: 17.0
-    currentprice: 228.13
+    currentprice: 228.205
     splits: 15 # https://www.stocksplithistory.com/?symbol=TSLA
 ---
