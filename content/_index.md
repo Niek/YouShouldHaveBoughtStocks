@@ -33,14 +33,14 @@ companies:
     ticker: NASDAQ:META
     date: 2012-05-18
     price: 38.0
-    currentprice: 546.8925
+    currentprice: 547.27
     splits: 1 # https://www.stocksplithistory.com/?symbol=META
   - name: NVIDIA
     icon: fa-regular fa-gamepad
     ticker: NASDAQ:NVDA
     date: 1999-01-22
     price: 12.0
-    currentprice: 110.9101
+    currentprice: 111.01
     splits: 48 # https://www.stocksplithistory.com/?symbol=NVDA
   - name: Alibaba
     icon: fa-regular fa-shopping-cart
@@ -54,6 +54,6 @@ companies:
     ticker: NASDAQ:TSLA
     date: 2010-06-29
     price: 17.0
-    currentprice: 285.17
+    currentprice: 284.95
     splits: 15 # https://www.stocksplithistory.com/?symbol=TSLA
 ---
