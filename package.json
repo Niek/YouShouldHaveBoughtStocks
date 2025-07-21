@@ -7,5 +7,5 @@
   "dependencies": {
     "bulma": "^0.9"
   },
-  "packageManager": "yarn@4.9.2"
+  "packageManager": "yarn@1.22.22"
 }
