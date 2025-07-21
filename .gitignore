@@ -1,6 +1,6 @@
 public/
 public-alt/
 node_modules
-*.lock
 resources
 .yarn
+.hugo*
