@@ -18,9 +18,10 @@ jobs:
         with:
           submodules: true
 
-      - uses: borales/actions-yarn@v5
+      - uses: actions/setup-node@v4
         with:
-          cmd: install
+          node-version: latest
+          cache: yarn
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
