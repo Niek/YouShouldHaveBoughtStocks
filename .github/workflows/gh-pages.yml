@@ -22,6 +22,7 @@ jobs:
         with:
           node-version: latest
           cache: yarn
+      - run: yarn install --immutable
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
