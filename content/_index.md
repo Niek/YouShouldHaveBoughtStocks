@@ -19,14 +19,14 @@ companies:
     ticker: NASDAQ:NFLX
     date: 2002-05-23
     price: 15.0
-    currentprice: 
+    currentprice: 1225.28
     splits: 14 # https://www.stocksplithistory.com/?symbol=NFLX
   - name: Google / Alphabet
     icon: fa-brands fa-google
     ticker: NASDAQ:GOOGL
     date: 2004-08-19
     price: 85.0
-    currentprice: 
+    currentprice: 203.34
     splits: 39.96 # https://www.stocksplithistory.com/?symbol=GOOGL
   - name: Facebook / Meta
     icon: fa-brands fa-facebook-square
@@ -47,13 +47,13 @@ companies:
     ticker: NYSE:BABA
     date: 2014-09-18
     price: 68.0
-    currentprice: 
+    currentprice: 122.42
     splits: 1 # https://www.stocksplithistory.com/?symbol=BABA
   - name: Tesla
     icon: fa-regular fa-charging-station
     ticker: NASDAQ:TSLA
     date: 2010-06-29
     price: 17.0
-    currentprice: 
+    currentprice: 340.84
     splits: 15 # https://www.stocksplithistory.com/?symbol=TSLA
 ---
