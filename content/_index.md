@@ -26,7 +26,7 @@ companies:
     ticker: NASDAQ:GOOGL
     date: 2004-08-19
     price: 85.0
-    currentprice: 245.757
+    currentprice: 245.79
     splits: 39.96 # https://www.stocksplithistory.com/?symbol=GOOGL
   - name: Facebook / Meta
     icon: fa-brands fa-facebook-square
