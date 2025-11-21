@@ -33,7 +33,7 @@ companies:
     ticker: NASDAQ:META
     date: 2012-05-18
     price: 38.0
-    currentprice: 589.15
+    currentprice: 589.215
     splits: 1 # https://www.stocksplithistory.com/?symbol=META
   - name: NVIDIA
     icon: fa-regular fa-gamepad
@@ -54,6 +54,6 @@ companies:
     ticker: NASDAQ:TSLA
     date: 2010-06-29
     price: 17.0
-    currentprice: 395.23
+    currentprice: 395.045
     splits: 15 # https://www.stocksplithistory.com/?symbol=TSLA
 ---
