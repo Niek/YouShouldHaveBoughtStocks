@@ -19,7 +19,7 @@ companies:
     ticker: NASDAQ:NFLX
     date: 2002-05-23
     price: 15.0
-    currentprice: 91.46
+    currentprice: 91.4698
     splits: 14 # https://www.stocksplithistory.com/?symbol=NFLX
   - name: Google / Alphabet
     icon: fa-brands fa-google
