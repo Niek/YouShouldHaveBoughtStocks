@@ -5,7 +5,7 @@ companies:
     ticker: NASDAQ:MSFT
     date: 1986-03-13
     price: 21.0
-    currentprice: 451.14
+    currentprice: 450.865
     splits: 288 # https://www.stocksplithistory.com/?symbol=MSFT
   - name: Amazon
     icon: fa-brands fa-amazon
@@ -26,7 +26,7 @@ companies:
     ticker: NASDAQ:GOOGL
     date: 2004-08-19
     price: 85.0
-    currentprice: 330.54
+    currentprice: 330.51
     splits: 39.96 # https://www.stocksplithistory.com/?symbol=GOOGL
   - name: Facebook / Meta
     icon: fa-brands fa-facebook-square
