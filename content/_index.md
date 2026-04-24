@@ -5,7 +5,7 @@ companies:
     ticker: NASDAQ:MSFT
     date: 1986-03-13
     price: 21.0
-    currentprice: 424.62
+    currentprice: 424.6
     splits: 288 # https://www.stocksplithistory.com/?symbol=MSFT
   - name: Amazon
     icon: fa-brands fa-amazon
@@ -33,14 +33,14 @@ companies:
     ticker: NASDAQ:META
     date: 2012-05-18
     price: 38.0
-    currentprice: 675.03
+    currentprice: 675.05
     splits: 1 # https://www.stocksplithistory.com/?symbol=META
   - name: NVIDIA
     icon: fa-regular fa-gamepad
     ticker: NASDAQ:NVDA
     date: 1999-01-22
     price: 12.0
-    currentprice: 208.27
+    currentprice: 208.26
     splits: 48 # https://www.stocksplithistory.com/?symbol=NVDA
   - name: Alibaba
     icon: fa-regular fa-shopping-cart
