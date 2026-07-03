@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<html lang="{{ .Site.Language.Locale | default "en-US" }}">
 
 <head>
 	<meta charset="utf-8">
@@ -14,7 +14,8 @@
 
 	{{ hugo.Generator }}
 
-	{{ $css := resources.Get "main.scss" | toCSS | postCSS | minify | fingerprint }}
+	{{ $sassOpts := dict "includePaths" (slice "node_modules") "silenceDependencyDeprecations" true "transpiler" "dartsass" }}
+	{{ $css := resources.Get "main.scss" | toCSS $sassOpts | postCSS | minify | fingerprint }}
 	<link rel="stylesheet" href="{{ $css.Permalink }}">
 
 	{{ template "_internal/google_analytics.html" . }}

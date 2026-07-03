@@ -23,11 +23,12 @@ jobs:
           node-version: latest
           cache: yarn
       - run: yarn install --immutable
+      - run: echo "$PWD/node_modules/.bin" >> "$GITHUB_PATH"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.139.4' # Fixed version, see https://github.com/gohugoio/hugo/releases
+          hugo-version: '0.163.3' # Fixed version, see https://github.com/gohugoio/hugo/releases
           extended: true
 
       - name: Build

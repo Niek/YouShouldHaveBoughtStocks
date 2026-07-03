@@ -15,7 +15,7 @@ companies:
     currentprice: 242.67
     splits: 240 # https://www.stocksplithistory.com/?symbol=AMZN
   - name: Netflix
-    icon: fa-regular fa-film
+    icon: fa-solid fa-film
     ticker: NASDAQ:NFLX
     date: 2002-05-23
     price: 15.0
@@ -36,21 +36,21 @@ companies:
     currentprice: 582.9
     splits: 1 # https://www.stocksplithistory.com/?symbol=META
   - name: NVIDIA
-    icon: fa-regular fa-gamepad
+    icon: fa-solid fa-gamepad
     ticker: NASDAQ:NVDA
     date: 1999-01-22
     price: 12.0
     currentprice: 194.83
     splits: 48 # https://www.stocksplithistory.com/?symbol=NVDA
   - name: Alibaba
-    icon: fa-regular fa-shopping-cart
+    icon: fa-solid fa-shopping-cart
     ticker: NYSE:BABA
     date: 2014-09-18
     price: 68.0
     currentprice: 96.14
     splits: 1 # https://www.stocksplithistory.com/?symbol=BABA
   - name: Tesla
-    icon: fa-regular fa-charging-station
+    icon: fa-solid fa-charging-station
     ticker: NASDAQ:TSLA
     date: 2010-06-29
     price: 17.0

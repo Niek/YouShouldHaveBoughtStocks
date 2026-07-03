@@ -28,9 +28,25 @@ $dark: $base03;
 $text: $base00;
 $background: $base2;
 
-$fa-font-path: "";
-$footer-padding: 3rem 1.5rem;
-$card-header-background-color: $info;
+@use "../node_modules/@fortawesome/fontawesome-free/scss/variables" with (
+    $font-path: ""
+);
+@use "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@use "../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@use "../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@use "../node_modules/bulma/sass" with (
+    $primary: $primary,
+    $link: $link,
+    $info: $info,
+    $success: $success,
+    $warning: $warning,
+    $danger: $danger,
+    $dark: $dark,
+    $text: $text,
+    $background: $background,
+    $footer-padding: 3rem 1.5rem,
+    $card-header-background-color: $info
+);
 
 .card {
     margin-bottom: 2rem;
@@ -43,8 +59,3 @@ $card-header-background-color: $info;
 .card-header-title .icon {
     margin-right: 0.5rem;
 }
-
-@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
-@import "node_modules/@fortawesome/fontawesome-free/scss/solid";
-@import "node_modules/@fortawesome/fontawesome-free/scss/brands";
-@import "node_modules/bulma/bulma";

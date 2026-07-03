@@ -1,4 +1,4 @@
-languageCode = "en-US"
+locale = "en-US"
 title = "StocksYouShouldHaveBought.com"
 publishdir = "public-alt"
 canonifyURLs = true
