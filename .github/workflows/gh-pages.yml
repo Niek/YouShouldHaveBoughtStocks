@@ -20,7 +20,7 @@ jobs:
 
       - uses: actions/setup-node@v7
         with:
-          node-version: latest
+          node-version: lts/*
           cache: yarn
       - run: yarn install --immutable
       - run: echo "$PWD/node_modules/.bin" >> "$GITHUB_PATH"
