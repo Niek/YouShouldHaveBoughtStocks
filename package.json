@@ -3,7 +3,7 @@
     "@fortawesome/fontawesome-free": "7",
     "@fullhuman/postcss-purgecss": "8",
     "postcss": "8",
-    "postcss-cli": "11",
+    "postcss-cli": "12",
     "sass-embedded": "1"
   },
   "dependencies": {
