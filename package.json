@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "@fortawesome/fontawesome-free": "7",
-    "@fullhuman/postcss-purgecss": "8",
+    "@fullhuman/postcss-purgecss": "9",
     "postcss": "8",
     "postcss-cli": "11",
     "sass-embedded": "1"
